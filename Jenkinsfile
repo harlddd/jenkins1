@@ -12,8 +12,8 @@ pipeline {
         }
          stage('Build Stage'){
              steps {
-                 sh "chmod +x jenkins1/Script.sh"
-                 sh "jenkins1/Script.sh"
+                 sh "chmod +x jenkins1/scrip.sh"
+                 sh "jenkins1/scrip.sh"
            }
          }
     post { 
