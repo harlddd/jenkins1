@@ -16,10 +16,5 @@ pipeline {
                  sh "jenkins1/scrip.sh"
            }
          }
-    post { 
-        always { 
-            cleanWs()
-        }
     }
-}
 }
